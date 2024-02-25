@@ -1,11 +1,11 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Змінив шрифт для більшого веселощів */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ff6f61; /* Вибрав яскравий колір */
+    background-color: #ff6f61;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -19,9 +19,9 @@ main {
 
 h1 {
     margin: 0;
-    font-size: 2.5rem; /* Збільшив розмір заголовків */
-    text-transform: uppercase; /* Перетворюємо заголовки великі літери */
-    letter-spacing: 2px; /* Додав кернінг */
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #array, #bubble-sort, #insertion-sort, #selection-sort, #merge-sort, #quick-sort {
@@ -32,19 +32,19 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center; /* Центруємо елементи по горизонталі */
+    justify-content: center;
 }
 
 .element {
-    background-color: #ffb3ff; /* Змінив колір елементів */
-    border: 2px solid #ff6f61; /* Збільшив товщину рамки та змінив колір */
-    padding: 10px; /* Збільшив відступи */
-    border-radius: 50%; /* Округлив куты */
-    font-size: 24px; /* Збільшив розмір шрифту */
+    background-color: #ffb3ff;
+    border: 2px solid #ff6f61;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 24px;
     width: 40px;
-    height: 40px; /* Додав висоту для коректного круглого відображення */
+    height: 40px;
     text-align: center;
-    line-height: 40px; /* Вирівняв текст по центру */
+    line-height: 40px;
 }
 
 .sorted {
@@ -56,8 +56,8 @@ h1 {
 }
 
 #bubble-sort-steps-count, #insertion-sort-steps-count, #selection-sort-steps-count, #merge-sort-steps-count, #quick-sort-steps-count {
-    width: 100%; /* Ширина на всю ширину блоку */
-    text-align: center; /* Центруємо текст */
-    margin-top: 10px; /* Збільшуємо відступи */
-    font-size: 1.2rem; /* Змінюємо розмір тексту */
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
 }
